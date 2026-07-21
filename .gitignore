@@ -5,8 +5,13 @@ __pycache__/
 # Data and Models tracked by DVC
 /data/*
 !/data/.gitkeep
+!/data/*.dvc
 /models/*
 !/models/.gitkeep
+!/models/*.dvc
 
 # DVC cache
 .dvc/cache
+
+# Visual Studio Code settings
+.vscode/
