@@ -7,7 +7,7 @@ def run_training():
     A simple function to load data and train a model.
     """
     # Load the dataset
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('data/iris.csv')
 
     # Define features and target
     X = df[['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']]
