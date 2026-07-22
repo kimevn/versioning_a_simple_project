@@ -1,5 +1,5 @@
 import pytest
-from train import run_training
+from src.train import run_training
 
 def test_training_runs():
     """
