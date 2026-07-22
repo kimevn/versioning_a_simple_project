@@ -16,11 +16,11 @@ jobs:
     steps:
       # Step 1: Check out your repository code
       - name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Step 2: Set up a specific version of Python
       - name: Set up Python 3.13.9
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.13.9'
 
