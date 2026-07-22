@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 
 # Data and Models tracked by DVC
-/data/*
+# /data/*
 !/data/.gitkeep
 !/data/*.dvc
 /models/*
